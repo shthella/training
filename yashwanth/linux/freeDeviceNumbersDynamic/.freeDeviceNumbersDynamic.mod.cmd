@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/linux/freeDeviceNumbersDynamic/freeDeviceNumbersDynamic.mod := printf '%s\n'   freeDeviceNumbersDynamic.o | awk '!x[$$0]++ { print("/home/admin1/linux/freeDeviceNumbersDynamic/"$$0) }' > /home/admin1/linux/freeDeviceNumbersDynamic/freeDeviceNumbersDynamic.mod

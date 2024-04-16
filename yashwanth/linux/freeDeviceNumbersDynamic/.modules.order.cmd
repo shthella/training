@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/linux/freeDeviceNumbersDynamic/modules.order := {   echo /home/admin1/linux/freeDeviceNumbersDynamic/freeDeviceNumbersDynamic.o; :; } > /home/admin1/linux/freeDeviceNumbersDynamic/modules.order

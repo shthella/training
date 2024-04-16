@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/linux/user_space/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/admin1/linux/user_space/Module.symvers -T /home/admin1/linux/user_space/modules.order -i Module.symvers -e 

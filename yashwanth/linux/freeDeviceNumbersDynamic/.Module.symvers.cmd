@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/linux/freeDeviceNumbersDynamic/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/admin1/linux/freeDeviceNumbersDynamic/Module.symvers -T /home/admin1/linux/freeDeviceNumbersDynamic/modules.order -i Module.symvers -e 
