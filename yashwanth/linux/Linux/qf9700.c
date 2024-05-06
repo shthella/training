@@ -1,16 +1,6 @@
 /*
  * QF9700 one chip USB 1.1 ethernet devices
- *
- * Author : jokeliujl <jokeliu@163.com>
- * Date : 2010-10-01
- *
- * This file is licensed under the terms of the GNU General Public License
- * version 2.  This program is licensed "as is" without any warranty of any
- * kind, whether express or implied.
  */
-
-//#define DEBUG
-
 #include <linux/module.h>
 #include <linux/sched.h>
 #include <linux/stddef.h>
