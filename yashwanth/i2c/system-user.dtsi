@@ -1,0 +1,44 @@
+/dts-v2/;
+/plugin/;
+
+/ {
+    compatible = "xlnx,zynq-7000";
+
+    i2c@0 {
+        compatible = "i2c-gpio";
+        status = "okay";
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        i2c_gpio: gpio@0 {
+            compatible = "atmel,i2c-gpio";
+            gpios = <&gpio0 17 1>;
+            i2c-gpio,sda-open-drain;
+            i2c-gpio,scl-open-drain;
+            i2c-gpio,delay-us = <2>; // Adjust this according to your hardware requirements
+            clock-frequency = <100000>; // Adjust this according to your hardware requirements
+            reg = <0>;
+        };
+    };
+
+    i2c@1 {
+        compatible = "i2c-gpio";
+        status = "okay";
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        i2c_gpio: gpio@1 {
+            compatible = "atmel,i2c-gpio";
+            gpios = <&gpio0 18 1>;
+            i2c-gpio,sda-open-drain;
+            i2c-gpio,scl-open-drain;
+            i2c-gpio,delay-us = <2>; // Adjust this according to your hardware requirements
+            clock-frequency = <100000>; // Adjust this according to your hardware requirements
+            reg = <1>;
+        };
+    };
+};                                                                     
+
+
+
+
