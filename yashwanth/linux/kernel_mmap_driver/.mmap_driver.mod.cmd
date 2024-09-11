@@ -1,0 +1,1 @@
+cmd_/home/admin1/Documents/linux/kernel_mmap_driver/mmap_driver.mod := { echo  /home/admin1/Documents/linux/kernel_mmap_driver/mmap_driver.o;  echo; } > /home/admin1/Documents/linux/kernel_mmap_driver/mmap_driver.mod
