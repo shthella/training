@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Documents/linux/PCI_DRV/pci_basic/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/admin1/Documents/linux/PCI_DRV/pci_basic/Module.symvers -T /home/admin1/Documents/linux/PCI_DRV/pci_basic/modules.order -i Module.symvers -e 

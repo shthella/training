@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Documents/linux/PCI_DRV/pci/pci.mod := printf '%s\n'   pci.o | awk '!x[$$0]++ { print("/home/admin1/Documents/linux/PCI_DRV/pci/"$$0) }' > /home/admin1/Documents/linux/PCI_DRV/pci/pci.mod
