@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Documents/linux/ZED_GPIO_IRQ/zedboard_gpio_driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/admin1/Documents/linux/ZED_GPIO_IRQ/zedboard_gpio_driver.ko /home/admin1/Documents/linux/ZED_GPIO_IRQ/zedboard_gpio_driver.o /home/admin1/Documents/linux/ZED_GPIO_IRQ/zedboard_gpio_driver.mod.o

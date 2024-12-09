@@ -1,0 +1,10 @@
+cd /
+root@avnet-digilent-zedboard-2020_2:/# cd lib/
+root@avnet-digilent-zedboard-2020_2:/lib# cd , modules/
+root@avnet-digilent-zedboard-2020_2:/lib/modules# cd 5.4.0-xilinx-v2020.2/ [Aroot@avnet-digilent-zedboard-2020_2:/lib/modules# cd 5.4.0-xilinx-v2020.2[K/
+root@avnet-digilent-zedboard-2020_2:/lib/modules/5.4.0-xilinx-v2020.2# cd  extra/
+root@avnet-digilent-zedboard-2020_2:/lib/modules/5.4.0-xilinx-v2020.2/extraa# insmod gpio-irq.ko 
+GPIO request failed
+GPIO request failed
+insmod: can't insert 'gpio-irq.ko': Unknown error 517
+root@avnet-digilent-zedboard-2020_2:/lib/modules/5.4.0-xilinx-v2020.2/extraa# 

@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Documents/linux/ZED_GPIO_IRQ/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/admin1/Documents/linux/ZED_GPIO_IRQ/Module.symvers -T /home/admin1/Documents/linux/ZED_GPIO_IRQ/modules.order -i Module.symvers -e 
